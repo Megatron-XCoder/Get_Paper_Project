@@ -53,7 +53,7 @@ poetry run get-papers-list "<query>"
 
 3. **Save Results to a File**:
    ```bash
-   poetry run get-papers-list "genetics" --file results.txt
+   poetry run get-papers-list "genetics and human psychology" --file genetics.csv
    ```
 
 4. **Show Help**:
