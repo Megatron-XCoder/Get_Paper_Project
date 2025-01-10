@@ -14,7 +14,7 @@ This project fetches and filters PubMed papers based on author affiliations, all
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/get-papers-list.git
+   git clone https://github.com/Megatron-XCoder/Get_Paper_Project.git
    cd get-papers-list
    ```
 
@@ -43,17 +43,17 @@ poetry run get-papers-list "<query>"
 
 1. **Basic Query**:
    ```bash
-   poetry run get-papers-list "cancer research"
+   poetry run get-papers-list "cancer research on kidney and brain"
    ```
 
 2. **With Debug Mode**:
    ```bash
-   poetry run get-papers-list "machine learning" --debug
+   poetry run get-papers-list "machine learning and the rise on AI" --debug
    ```
 
 3. **Save Results to a File**:
    ```bash
-   poetry run get-papers-list "genetics and human psychology" --file genetics.csv
+   poetry run get-papers-list "human psychology and body language" --file genetics.csv
    ```
 
 4. **Show Help**:
